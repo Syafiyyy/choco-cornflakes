@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Corn Choco - Premium Malaysian Snacks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Adam Corn Choco</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link cart-icon" id="cartIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Premium Quality</span>
+                </div>
+                <h1 class="hero-title">Adam Corn Choco</h1>
+                <p class="hero-subtitle">Artisan Malaysian Snacks Crafted with Passion</p>
+                <div class="hero-description">
+                    <p>Experience the perfect blend of tradition and innovation in every bite</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i>
+                        Shop Now
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Signature Products</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Natural Ingredients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>About Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content fade-in">
+                <p>Welcome to Adam Corn Choco, your home for delicious homemade Malaysian snacks! We take pride in creating all-natural, flavorful treats using only the finest ingredients. Our Cornflakes Salted Egg and Combo ChocoJar are crafted with passion and care, bringing you the authentic taste of Malaysia in every bite. As a local Malaysian brand, we're committed to delivering quality snacks that satisfy your cravings while keeping things fresh, natural, and affordable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Our Products</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="products-grid">
+                <div class="product-card fade-in">
+                    <div class="product-badge">Bestseller</div>
+                    <div class="product-image">
+                        <img src="images/Cornflakes.jpg" alt="Cornflakes Salted Egg">
+                        <div class="product-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Signature Snack</div>
+                        <h3>Cornflakes Salted Egg</h3>
+                        <p>Crispy cornflakes coated with our signature salted egg seasoning. A perfect blend of savory and sweet that will keep you coming back for more!</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Homemade</span>
+                            <span><i class="fas fa-check"></i> All Natural</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">RM12.00</span>
+                            <span class="price-unit">/ 200gm</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart-btn" data-product="Cornflakes Salted Egg" data-price="12.00" data-image="images/Cornflakes.jpg">
+                            <i class="fas fa-cart-plus"></i>
+                            Add to Cart
+                        </button>
+                        <button class="btn btn-secondary order-btn" data-product="Cornflakes Salted Egg">
+                            <i class="fas fa-shopping-bag"></i>
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="images/chocojar.jpg" alt="Combo ChocoJar">
+                        <div class="product-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Combo Deal</div>
+                        <h3>Combo ChocoJar</h3>
+                        <p>Delightful chocolate-coated treats in a convenient jar. Enjoy three delicious flavors in one set - perfect for sharing or indulging yourself!</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> 3 Flavors</span>
+                            <span><i class="fas fa-check"></i> Fresh Daily</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">RM10.00</span>
+                            <span class="price-unit">/ set of 3 flavors</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart-btn" data-product="Combo ChocoJar" data-price="10.00" data-image="images/chocojar.jpg">
+                            <i class="fas fa-cart-plus"></i>
+                            Add to Cart
+                        </button>
+                        <button class="btn btn-secondary order-btn" data-product="Combo ChocoJar">
+                            <i class="fas fa-shopping-bag"></i>
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>What Our Customers Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The salted egg cornflakes are absolutely amazing! Perfect balance of savory and sweet. I've ordered 3 times already!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Ahmad Kamal</div>
+                            <div class="author-location">Kuala Lumpur</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The ChocoJar combo is perfect for sharing with family. All three flavors are delicious and the packaging is beautiful!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Siti Nor</div>
+                            <div class="author-location">Penang</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Fresh, homemade taste that reminds me of my childhood. Adam Corn Choco never disappoints! Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Mohd Razif</div>
+                            <div class="author-location">Johor Bahru</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-controls">
+                <button class="testimonial-btn prev-btn" id="prevTestimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-btn next-btn" id="nextTestimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Why Choose Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🌿</div>
+                    <h3>All-Natural Ingredients</h3>
+                    <p>We use only the finest natural ingredients to ensure quality and taste in every bite.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">📦</div>
+                    <h3>Freshly Packed</h3>
+                    <p>All our products are freshly made and packed to maintain maximum freshness and flavor.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">💰</div>
+                    <h3>Affordable Price</h3>
+                    <p>Enjoy premium quality snacks at prices that won't break your budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Order Now</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form fade-in">
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="product">Product Selection</label>
+                            <select id="product" name="product" required>
+                                <option value="">Select a product</option>
+                                <option value="Cornflakes Salted Egg">Cornflakes Salted Egg - RM12.00</option>
+                                <option value="Combo ChocoJar">Combo ChocoJar - RM10.00</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" id="quantity" name="quantity" min="1" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Order</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-in">
+                    <h3>Get in Touch</h3>
+                    <p>Follow us on social media for updates and special offers!</p>
+                    <div class="social-media">
+                        <strong>Instagram:</strong> 
+                        <a href="https://www.instagram.com/adamcornchocoigsh=bDZkdXRiMG5vbTk1&utm_source=qr" target="_blank" class="social-link-text">
+                            @adamcornchoco
+                        </a>
+                        <br>
+                        <strong>Facebook:</strong> 
+                        <a href="https://www.facebook.com/share/1HbgASaXbm/?mibextid=wwXIfr" target="_blank" class="social-link-text">
+                            Visit our Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Adam Corn Choco</h3>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 Adam Corn Choco. All rights reserved.</p>
+                    <p>Premium Malaysian Snacks</p>
+                </div>
+                <div class="footer-social">
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/adamcornchocoigsh=bDZkdXRiMG5vbTk1&utm_source=qr" target="_blank" class="social-link instagram-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>@adamcornchoco</span>
+                        </a>
+                        <a href="https://www.facebook.com/share/1HbgASaXbm/?mibextid=wwXIfr" target="_blank" class="social-link facebook-link">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">RM0.00</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" id="checkoutBtn">
+                <i class="fas fa-credit-card"></i>
+                Proceed to Checkout
+            </button>
+            <button class="btn btn-secondary clear-cart-btn" id="clearCartBtn">
+                <i class="fas fa-trash"></i>
+                Clear Cart
+            </button>
+        </div>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+        <div class="progress-ring">
+            <svg width="40" height="40">
+                <circle class="progress-circle" cx="20" cy="20" r="18" fill="none" stroke="rgba(255, 193, 7, 0.3)" stroke-width="2"/>
+                <circle class="progress-circle-fill" cx="20" cy="20" r="18" fill="none" stroke="#FFC107" stroke-width="2" stroke-dasharray="113" stroke-dashoffset="113"/>
+            </svg>
+        </div>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
